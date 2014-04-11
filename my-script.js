@@ -6,7 +6,10 @@ $(function(){
   
   var stage = createStage("canvas"); // stageを作成
   
-  /*
+  createjs.Ticker.setFPS(30); //FPSを設定
+  createjs.Ticker.addEventListener("tick", function(){
+    stage.update();
+  });
   // 先に読み込む画像の指定
 　var manifest = [
     {src:"test1.jpg", id: "test1"},
@@ -15,17 +18,18 @@ $(function(){
    
   preload = new createjs.LoadQueue(false);
   preload.loadManifest(manifest); // 配列manifestを先読みする
-  preload.addEventListener("complete",showBitmap);
-  */
-
+  //preload.addEventListener("complete",showBitmap);
+  
   //poly();
-  //circle();
+  circle();
   //text();
   //rect();
   
 
   //描画
   stage.update();
+ 
+  
 
   function tick(){
     stage.update();
@@ -34,9 +38,9 @@ $(function(){
   //Bitmapを表示する
   function showBitmap(){
     var b = new createjs.Bitmap(preload.getResult("test1"));
-    
+      
     stage.addChild(b);
-    stage.update();
+    // stage.update();
   }  
 
   //Stageオブジェクト生成
@@ -84,10 +88,10 @@ $(function(){
   
     stage.addChild(s);
   };
-　　
+
   //テキスト
   function text(){
-　　//Text("表示させる文字列","文字サイズとフォント指定","文字の色")
+  　//Text("表示させる文字列","文字サイズとフォント指定","文字の色")
     var text = createText("Hello World!","3px Impact","#CCC");
     
     text.x = $(window).width() /2;
@@ -109,7 +113,11 @@ $(function(){
     s.y = $(window).height() /2;
   
     //ステージにシェイプをセット
-    stage.addChild(s); 
+    stage.addChild(s);
+    s.onTick = function(){
+      s.x++;
+      s.y++;
+    }; 
   }
 })
 
