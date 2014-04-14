@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36fec1e8-858d-4c36-9c48-49406badda13" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/createjs-exposes.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-script.js" afterPath="$PROJECT_DIR$/my-script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CreateJS_Test.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="36fec1e8-858d-4c36-9c48-49406badda13" time="1397443808615" ignored="false" />
-    <file path="/my-script.js" changelist="36fec1e8-858d-4c36-9c48-49406badda13" time="1397451543803" ignored="false" />
-    <file path="/index.html" changelist="36fec1e8-858d-4c36-9c48-49406badda13" time="1397446769904" ignored="false" />
+    <file path="/Dummy.txt" changelist="36fec1e8-858d-4c36-9c48-49406badda13" time="1397457198696" ignored="false" />
+    <file path="/my-script.js" changelist="36fec1e8-858d-4c36-9c48-49406badda13" time="1397462005549" ignored="false" />
+    <file path="/index.html" changelist="36fec1e8-858d-4c36-9c48-49406badda13" time="1397457324690" ignored="false" />
+    <file path="/createjs-exposes.js" changelist="36fec1e8-858d-4c36-9c48-49406badda13" time="1397458831875" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,16 +37,7 @@
           <file leaf-file-name="my-script.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/my-script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="74" column="0" selection-start="1813" selection-end="1813" vertical-scroll-proportion="0.64822817">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="19" column="0" selection-start="520" selection-end="520" vertical-scroll-proportion="-11.875">
+                <state line="34" column="0" selection-start="879" selection-end="879" vertical-scroll-proportion="0.43293718">
                   <folding />
                 </state>
               </provider>
@@ -81,11 +74,22 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="my-script.js" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="my-script.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/my-script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="117" column="37" selection-start="2385" selection-end="2385" vertical-scroll-proportion="-0.37313432">
+                <state line="71" column="0" selection-start="1716" selection-end="1716" vertical-scroll-proportion="0.0">
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="createjs-exposes.js" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/createjs-exposes.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="41" column="0" selection-start="795" selection-end="795" vertical-scroll-proportion="0.43138865">
+                  <folding>
+                    <element signature="e#0#157#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -111,6 +115,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/createjs-exposes.js" />
         <option value="$PROJECT_DIR$/my-script.js" />
       </list>
     </option>
@@ -190,6 +195,23 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="36fec1e8-858d-4c36-9c48-49406badda13" name="Default" comment="" />
@@ -362,14 +384,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="520" selection-end="520" vertical-scroll-proportion="-11.875">
+        <state line="6" column="72" selection-start="328" selection-end="328" vertical-scroll-proportion="0.077787384">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/createjs-exposes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="795" selection-end="795" vertical-scroll-proportion="0.43138865">
+          <folding>
+            <element signature="e#0#157#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="0" selection-start="1813" selection-end="1813" vertical-scroll-proportion="0.64822817">
+        <state line="34" column="0" selection-start="879" selection-end="879" vertical-scroll-proportion="0.43293718">
           <folding />
         </state>
       </provider>
