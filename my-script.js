@@ -5,6 +5,7 @@ $(function(){
   
   
   var stage = createStage("canvas"); // stageを作成
+
   
   createjs.Ticker.setFPS(30); //FPSを設定
   createjs.Ticker.addEventListener("tick", function(){
@@ -12,19 +13,67 @@ $(function(){
   });
   // 先に読み込む画像の指定
 　var manifest = [
-    {src:"test1.jpg", id: "test1"},
-    {src:"test2.png", id: "test2"}
+    {src:"test1.jpg", id: "test1"}
+    //{src:"test2.png", id: "test2"}
   ];
    
   var preload = new createjs.LoadQueue(false);
   preload.loadManifest(manifest); // 配列manifestを先読みする
   //preload.addEventListener("complete",showBitmap);
+
+    var Circle = function(){
+        this.x = 0;
+        this.y = 0;
+        this.radius = 0;
+        this.shape = createShape();
+        this.graphics = createGraphics();
+    };
+
+    Circle.prototype = {
+        pos : function(x,y){
+            this.x  = x;
+            this.y = y;
+            return this;
+        },
+        color : function(color){
+            this.graphics.beginFill(color);
+            return this;
+        },
+        scale : function(radius){
+            this.radius = radius;
+            return this;
+        },
+        setStage : function(){
+            this.graphics.drawCircle(this.x,this.y,this.radius);
+            this.shape.graphics = this.graphics;
+            stage.addChild(this.shape);
+            return this;
+        }
+
+    };
+
   
   //poly();
-  circle();
+  //circle();
   //こういう風に呼び出したい circle().pos(10,10).color("#000000").animation("tween");
   //text();
   //rect();
+
+
+    createjs.Graphics.prototype.setStage =function(stage, shape){
+        stage.addChild(shape);
+    };
+
+  //円
+  var circle = createShape();
+  circle.graphics.f("#FF0000").dc(500,500,100).setStage(stage,circle);
+
+  //多角形
+  var poly = createShape();
+  poly.graphics.f("#00FF00").dp(100,200,50,5,0,0).setStage(stage,poly);
+
+
+
 
   //描画
   stage.update();
@@ -44,7 +93,7 @@ $(function(){
   //Bitmapを表示する
   function showBitmap(){
     var b = new createjs.Bitmap(preload.getResult("test1"));
-      
+
     stage.addChild(b);
     // stage.update();
   };
@@ -109,7 +158,7 @@ $(function(){
     var g = createGraphics();
     g.beginFill("#888");
     g.drawRect(0,0,100,100);
-    
+
     var s = createShape(g);
     s.x = $(window).width()/2;
     s.y = $(window).height()/2;
@@ -143,7 +192,7 @@ $(function(){
     var s = createShape(g);
     s.x = $(window).width()/2;
     s.y = $(window).height()/2;
-  
+
     stage.addChild(s);
   };
 
@@ -166,7 +215,7 @@ $(function(){
   function text(){
   　//Text("表示させる文字列","文字サイズとフォント指定","文字の色")
     var text = createText("Hello World!","50px Impact","#000000");
-    
+
     text.x = $(window).width() /2;
     text.y = $(window).height() /2;
 
@@ -198,7 +247,7 @@ $(function(){
     var s = createShape(g);
     //s.x = $(window).width() /2;
     //s.y = $(window).height() /2;
-  
+
     //ステージにシェイプをセット
     stage.addChild(s);
 
@@ -206,8 +255,12 @@ $(function(){
 
 
 
+
+
+  //
+
 /*
-    //こういう風に呼び出したい circle().pos(10,10).color("#000000").animation("tween");
+    //こういう風び出したい circle().pos(10,10).color("#000000").animation("tween");
   function circle(){
     var s = createShape();
     s.x = $(window).width() / 2;
