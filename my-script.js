@@ -13,7 +13,7 @@ $(function(){
 
   // 先に読み込む画像の指定
 　var manifest = [
-    {src:"test1.jpg", id: "test1"}
+    {src:"makaron.jpg", id: "test1"}
     //{src:"test2.png", id: "test2"}
   ];
    
@@ -41,7 +41,7 @@ $(function(){
   var text = createText("Hello World!","50px Impact","#FFFF00");
   text.pos(500,500).addToStage(stage);
 
-  createjs.Tween.get(text).to({x:800,y:800},1500);
+  createjs.Tween.get(text).to({y:200},1500, createjs.Ease.linear);
 
   //spritesheet
   var spriteSheet = new createjs.SpriteSheet({
@@ -66,7 +66,7 @@ $(function(){
       var bitmap = createBitmap(preload.getResult("test1"));
       bitmap.addToStage(stage);
 
-      createjs.Tween.get(bitmap).to({x:800,y:800},1500);
+      createjs.Tween.get(bitmap).to({x:200},1500, createjs.Ease.cubicin);
 
   };
 

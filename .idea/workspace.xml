@@ -2,17 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36fec1e8-858d-4c36-9c48-49406badda13" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/createjs-exposes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/my-script.js" afterPath="$PROJECT_DIR$/my-script.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CreateJS_Test.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="36fec1e8-858d-4c36-9c48-49406badda13" time="1397457198696" ignored="false" />
-    <file path="/my-script.js" changelist="36fec1e8-858d-4c36-9c48-49406badda13" time="1397462005549" ignored="false" />
+    <file path="/Dummy.txt" changelist="36fec1e8-858d-4c36-9c48-49406badda13" time="1397527676194" ignored="false" />
+    <file path="/my-script.js" changelist="36fec1e8-858d-4c36-9c48-49406badda13" time="1397531038078" ignored="false" />
     <file path="/index.html" changelist="36fec1e8-858d-4c36-9c48-49406badda13" time="1397457324690" ignored="false" />
     <file path="/createjs-exposes.js" changelist="36fec1e8-858d-4c36-9c48-49406badda13" time="1397458831875" ignored="false" />
+    <file path="$PROJECT_DIR$/../ニコ生ポップアップ/1.0/js/popup.js" changelist="36fec1e8-858d-4c36-9c48-49406badda13" time="1397465148700" ignored="false" />
+    <file path="$PROJECT_DIR$/../ニコ生ポップアップ/1.0/background.html" changelist="36fec1e8-858d-4c36-9c48-49406badda13" time="1397463111927" ignored="false" />
+    <file path="/background.html" changelist="36fec1e8-858d-4c36-9c48-49406badda13" time="1397463106144" ignored="false" />
+    <file path="$PROJECT_DIR$/../ニコ生ポップアップ/1.0/js/background.js" changelist="36fec1e8-858d-4c36-9c48-49406badda13" time="1397465186961" ignored="false" />
+    <file path="/background.js" changelist="36fec1e8-858d-4c36-9c48-49406badda13" time="1397464610329" ignored="false" />
+    <file path="/popup.js" changelist="36fec1e8-858d-4c36-9c48-49406badda13" time="1397464703244" ignored="false" />
+    <file path="$PROJECT_DIR$/../ニコ生ポップアップ/1.0/manifest.json" changelist="36fec1e8-858d-4c36-9c48-49406badda13" time="1397463871563" ignored="false" />
+    <file path="/manifest.json" changelist="36fec1e8-858d-4c36-9c48-49406badda13" time="1397463864857" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,34 +43,7 @@
           <file leaf-file-name="my-script.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/my-script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="34" column="0" selection-start="879" selection-end="879" vertical-scroll-proportion="0.43293718">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="my-style.css" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/my-style.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="EcmaScript5.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="77" column="0" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DHTML.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="11" column="17" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
+                <state line="55" column="7" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.6767843">
                   <folding />
                 </state>
               </provider>
@@ -77,7 +56,7 @@
           <file leaf-file-name="my-script.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/my-script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="71" column="0" selection-start="1716" selection-end="1716" vertical-scroll-proportion="0.0">
+                <state line="71" column="0" selection-start="1751" selection-end="1751" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -86,10 +65,8 @@
           <file leaf-file-name="createjs-exposes.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/createjs-exposes.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="41" column="0" selection-start="795" selection-end="795" vertical-scroll-proportion="0.43138865">
-                  <folding>
-                    <element signature="e#0#157#0" expanded="false" />
-                  </folding>
+                <state line="41" column="0" selection-start="795" selection-end="795" vertical-scroll-proportion="0.5045119">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -141,7 +118,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -152,33 +129,12 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CreateJS_Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CreateJS_Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CreateJS_Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ニコ生ポップアップ" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -229,7 +185,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29578605" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16612642" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16612642" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -312,6 +268,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/createjs-exposes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="795" selection-end="795" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="17" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
@@ -368,9 +338,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="72" selection-start="328" selection-end="328" vertical-scroll-proportion="0.077787384" />
+      </provider>
+    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="0" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.0">
+        <state line="77" column="0" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.01232539">
           <folding />
         </state>
       </provider>
@@ -382,25 +357,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="72" selection-start="328" selection-end="328" vertical-scroll-proportion="0.077787384">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/createjs-exposes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="795" selection-end="795" vertical-scroll-proportion="0.43138865">
-          <folding>
-            <element signature="e#0#157#0" expanded="false" />
-          </folding>
+        <state line="41" column="0" selection-start="795" selection-end="795" vertical-scroll-proportion="0.5045119">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="879" selection-end="879" vertical-scroll-proportion="0.43293718">
+        <state line="55" column="7" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.6767843">
           <folding />
         </state>
       </provider>
