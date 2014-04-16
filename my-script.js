@@ -43,7 +43,7 @@ $(function(){
 
   createjs.Tween.get(text).to({y:200},1500, createjs.Ease.linear);
 
-  //spritesheet
+  //スプライトシート
   var spriteSheet = new createjs.SpriteSheet({
       images : ["./runningGrant.png"],
       frames :{
@@ -59,6 +59,20 @@ $(function(){
   var animation = new createjs.Sprite(spriteSheet, "run").set({x:800,y:400});
   animation.addToStage(stage);
 
+  //コンテナー
+  var rect1 = createShape();
+  rect1.graphics.f("#FF0000").dr(250,250,250,250);
+  rect1.addToStage(stage);
+
+  var circle2 = createShape();
+  circle2.graphics.f("#00FF00").dc(300,300,250);
+  circle2.addToStage(stage);
+
+  var container = new createjs.Container();
+  container.addChild(circle2);
+  container.addChild(rect1);
+  container.addToStage(stage);
+  createjs.Tween.get(container).to({rotation: 1440},10000,createjs.Ease.cubicOut);
 
 
   //Bitmapを表示する
@@ -66,7 +80,7 @@ $(function(){
       var bitmap = createBitmap(preload.getResult("test1"));
       bitmap.addToStage(stage);
 
-      createjs.Tween.get(bitmap).to({x:200},1500, createjs.Ease.cubicin);
+      createjs.Tween.get(bitmap).to({x:200},1500, createjs.Ease.cubicin).wait(1000).set({visible:false});
 
   };
 

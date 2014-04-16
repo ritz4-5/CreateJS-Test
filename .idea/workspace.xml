@@ -7,8 +7,8 @@
     </list>
     <ignored path="CreateJS_Test.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="36fec1e8-858d-4c36-9c48-49406badda13" time="1397527676194" ignored="false" />
-    <file path="/my-script.js" changelist="36fec1e8-858d-4c36-9c48-49406badda13" time="1397531038078" ignored="false" />
+    <file path="/Dummy.txt" changelist="36fec1e8-858d-4c36-9c48-49406badda13" time="1397621582845" ignored="false" />
+    <file path="/my-script.js" changelist="36fec1e8-858d-4c36-9c48-49406badda13" time="1397622428754" ignored="false" />
     <file path="/index.html" changelist="36fec1e8-858d-4c36-9c48-49406badda13" time="1397457324690" ignored="false" />
     <file path="/createjs-exposes.js" changelist="36fec1e8-858d-4c36-9c48-49406badda13" time="1397458831875" ignored="false" />
     <file path="$PROJECT_DIR$/../ニコ生ポップアップ/1.0/js/popup.js" changelist="36fec1e8-858d-4c36-9c48-49406badda13" time="1397465148700" ignored="false" />
@@ -43,7 +43,7 @@
           <file leaf-file-name="my-script.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/my-script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="55" column="7" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.6767843">
+                <state line="84" column="4" selection-start="2225" selection-end="2225" vertical-scroll-proportion="0.8756219">
                   <folding />
                 </state>
               </provider>
@@ -56,16 +56,25 @@
           <file leaf-file-name="my-script.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/my-script.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="71" column="0" selection-start="1751" selection-end="1751" vertical-scroll-proportion="0.0">
+                <state line="85" column="0" selection-start="2226" selection-end="2226" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="createjs-exposes.js" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="createjs-exposes.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/createjs-exposes.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="41" column="0" selection-start="795" selection-end="795" vertical-scroll-proportion="0.5045119">
+                <state line="29" column="32" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Sparkles.html" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/EaselJS-master/examples/Sparkles.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="88" column="33" selection-start="4709" selection-end="4709" vertical-scroll-proportion="0.012690355">
                   <folding />
                 </state>
               </provider>
@@ -148,6 +157,13 @@
     </servers>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -261,13 +277,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/my-script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/createjs-exposes.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="0" selection-start="795" selection-end="795" vertical-scroll-proportion="0.0">
@@ -284,16 +293,12 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="17" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="11" column="17" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="0" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="77" column="0" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-script.js">
@@ -305,16 +310,12 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="17" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="11" column="17" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="0" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="77" column="0" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-script.js">
@@ -333,9 +334,7 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="17" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="11" column="17" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -345,28 +344,31 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="0" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.01232539">
-          <folding />
-        </state>
+        <state line="77" column="0" selection-start="1238" selection-end="1238" vertical-scroll-proportion="0.01232539" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/createjs-exposes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="795" selection-end="795" vertical-scroll-proportion="0.5045119">
+        <state line="29" column="32" selection-start="568" selection-end="568" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EaselJS-master/examples/Sparkles.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="33" selection-start="4709" selection-end="4709" vertical-scroll-proportion="0.012690355">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my-script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="7" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.6767843">
+        <state line="84" column="4" selection-start="2225" selection-end="2225" vertical-scroll-proportion="0.8756219">
           <folding />
         </state>
       </provider>
