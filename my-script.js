@@ -13,7 +13,8 @@ $(function(){
 
   // 先に読み込む画像の指定
 　var manifest = [
-    {src:"makaron.jpg", id: "test1"}
+        {src: "http://images.china.cn/attachement/jpg/site1004/20090927/001372acd73d0c2957f90d.jpg", id: "test1"}
+    //{src:"makaron.jpg", id: "test1"}
     //{src:"test2.png", id: "test2"}
   ];
    
@@ -25,7 +26,6 @@ $(function(){
   var circle = createShape();
   circle.graphics.f("#FF0000").dc(0,0,100);
   circle.addToStage(stage);
-
   createjs.Tween.get(circle).to({x:800,y:800},1500);
 
   //多角形
@@ -72,7 +72,7 @@ $(function(){
   container.addChild(circle2);
   container.addChild(rect1);
   container.addToStage(stage);
-  createjs.Tween.get(container).to({rotation: 1440},10000,createjs.Ease.cubicOut);
+  createjs.Tween.get(container,{loop:true}).to({rotation: 1440},10000,createjs.Ease.cubicOut);
 
 
   //Bitmapを表示する
